@@ -1,3 +1,9 @@
-export const test = "test"
+import { IPlugin } from "@appx/plugin-sdk";
+import { rxPlugin } from "./Plugin";
 
-console.log("我抄")
+declare const window: Window & { rxPlugin: IPlugin };
+
+(function () {
+  window.rxPlugin = rxPlugin
+  console.log("Example plugin 中")
+})()
