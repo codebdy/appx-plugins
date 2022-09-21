@@ -5,5 +5,5 @@ declare const window: Window & { rxPlugin: IPlugin };
 
 (function () {
   window.rxPlugin = rxPlugin
-  console.log("Layouts plugin 中")
+  console.log("Example plugin 中")
 })()
