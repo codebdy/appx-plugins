@@ -1,10 +1,10 @@
 {
-  "name": "@appx/plugin-sdk",
+  "name": "@appx/example-plugin",
   "version": "0.0.0",
-  "description": "Appx plugin SDK",
+  "description": "Appx example plugin",
   "author": "nekogd",
   "license": "Apache-2.0",
-  "repository": "rxdrag/appx-plugin-sdk",
+  "repository": "rxdrag/plugins/example",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
