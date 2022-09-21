@@ -5,7 +5,7 @@ export const resource = {
       componentName: 'Field',
       props: {
         type: 'void',
-        'x-component': 'ProLayout',
+        'x-component': 'Example1',
         'x-component-props': {
         },
       },

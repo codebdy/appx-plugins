@@ -8,7 +8,7 @@ export interface IViewProps{
 export const ProLayout = observer(()=>{
   return (
     <div>
-      呵呵啊
+      Example1 pc
     </div>
   )
 })
