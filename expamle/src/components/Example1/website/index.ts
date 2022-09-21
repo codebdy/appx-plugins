@@ -1,7 +1,7 @@
 import { IMaterialComponent } from "@appx/plugin-sdk";
 import { NAME } from "../consts";
 import { ProLayoutDesigner } from "./designer";
-import { behaviors } from "./designer/behavior";
+import { behaviors } from "./designer/behaviors";
 import { resource } from "./designer/resource";
 import { ProLayout } from "./view";
 
