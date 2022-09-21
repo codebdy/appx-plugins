@@ -3,7 +3,7 @@ import { mobileComponents, pcComponents, webSiteComponents } from "./components"
 import { locales } from "./loacales";
 
 export const rxPlugin: IPlugin = {
-  id: "plugins.Example",
+  id: "appx.plugins.Example",
   title: "Example",
   version: "1.0",
   description: "Description",

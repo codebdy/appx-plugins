@@ -6,7 +6,7 @@ export const behaviors: IBehavior[] = [
   {
     name: 'ProLayout',
     extends: ['Field'],
-    selector: (node) => node.props['x-component'] === 'ProLayout',
+    selector: (node) => node.props?.['x-component'] === 'ProLayout',
     designerProps: {
       droppable: true,
     },
