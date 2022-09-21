@@ -326,6 +326,14 @@
   resolved "https://registry.yarnpkg.com/@formily/path/-/path-2.2.5.tgz#bd617a03c3e45906f9a909db93522e6dfbb8c357"
   integrity sha512-9a5CEG81tW6vLuzPnDqxCmrCWqPP6LEKzrqWv6eeu3WNwZKhkGd0YX9vSLcnzVkojpt0NxSgxqvEDdN4vT3oxg==
 
+"@formily/reactive-react@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@formily/reactive-react/-/reactive-react-2.2.5.tgz#c91bd8b9cf33572d59cfb02eb0cdcaf1c0759868"
+  integrity sha512-iRYVQgK+wpB0WBnmm5C/I9ALPQPAHx5KtzVVd+SUqXd3jgMcui8u6RN6CXn/JjtW7SQstWcaiNffPTuaDcyfeA==
+  dependencies:
+    "@formily/reactive" "2.2.5"
+    hoist-non-react-statics "^3.3.2"
+
 "@formily/reactive@2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@formily/reactive/-/reactive-2.2.5.tgz#52af202bf6aaa9cab9b9fd309237fe5c5ff778d6"
@@ -2000,6 +2008,13 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
+hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
+  dependencies:
+    react-is "^16.7.0"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -3425,7 +3440,7 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.6:
+react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
