@@ -19,7 +19,33 @@ export default {
     sass({ insert: true }), 
     typescript(), 
     uglify(),
-    serve('dist')
+    serve({
+      // Launch in browser (default: false)
+      open: false,
+    
+      // Show server address in console (default: true)
+      verbose: true,
+    
+      // Folder to serve files from
+      contentBase: '',
+    
+      // Multiple folders to serve from
+      contentBase: ['dist'],
+    
+      // Set to true to allow cors request
+      allowCrossOrigin: true,
+    
+      // Set to true to return index.html instead of 404
+      historyApiFallback: false,
+    
+      // Options used in setting up server
+      //host: 'localhost',
+      //port: 10001,
+      //set headers
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      }
+    })
   ],
   external: ['react', 'react-dom'],
 }
