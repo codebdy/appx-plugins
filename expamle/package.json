@@ -49,6 +49,7 @@
     "react-test-renderer": "^16.13.1",
     "rollup": "^1.29.0",
     "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-serve": "^2.0.1",
     "rollup-plugin-typescript2": "^0.25.3",
     "rollup-plugin-uglify": "^6.0.4",
     "ts-jest": "^26.1.3",
