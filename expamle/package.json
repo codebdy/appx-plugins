@@ -79,6 +79,7 @@
     "@formily/antd": "^2.1.9",
     "@formily/core": "^2.1.9",
     "@formily/shared": "^2.1.9",
-    "@rxdrag/appx-plugin-sdk": "^0.0.2"
+    "@rxdrag/appx-plugin-sdk": "^0.0.2",
+    "archiver": "^5.3.1"
   }
 }
