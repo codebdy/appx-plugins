@@ -1,10 +1,12 @@
+
+const pluginName = "example"
 // 第一步，导入必要的模块
 const fs = require('fs');
 const archiver = require('archiver');
 
 // 第二步，创建可写流来写入数据
-const output = fs.createWriteStream(__dirname + "/dist.zip");// 将压缩包保存到当前项目的目录下，并且压缩包名为test.zip
-const archive = archiver('zip', {zlib: {level: 9}});// 设置压缩等级
+const output = fs.createWriteStream(__dirname + `/${pluginName}.zip`);// 将压缩包保存到当前项目的目录下，并且压缩包名为test.zip
+const archive = archiver('zip', { zlib: { level: 9 } });// 设置压缩等级
 
 // 第三步，建立管道连接
 archive.pipe(output);
