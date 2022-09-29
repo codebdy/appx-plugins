@@ -2,7 +2,7 @@ import { IMaterialComponent } from "@rxdrag/appx-plugin-sdk";
 import { NAME } from "../consts";
 import { ProLayoutDesigner } from "./designer";
 import { behaviors } from "./designer/behaviors";
-import { resource } from "./designer/resource";
+import { resources } from "./designer/resources";
 import { ProLayout } from "./view";
 
 const mobile: IMaterialComponent = {
@@ -10,7 +10,7 @@ const mobile: IMaterialComponent = {
   designer: ProLayoutDesigner,
   component: ProLayout,
   behaviors,
-  resource
+  resources
 }
 
 export default mobile;

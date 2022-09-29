@@ -1,4 +1,4 @@
-export const resource = {
+export const resources = [{
   icon: 'CardSource',
   elements: [
     {
@@ -7,8 +7,9 @@ export const resource = {
         type: 'void',
         'x-component': 'Example1',
         'x-component-props': {
+          title: 'Title',
         },
       },
     },
   ],
-}
+}]

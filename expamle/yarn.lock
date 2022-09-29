@@ -1582,10 +1582,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rxdrag/appx-plugin-sdk@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@rxdrag/appx-plugin-sdk/-/appx-plugin-sdk-0.0.2.tgz#61abade0585b633c48d025385f949a7f82ce0d9e"
-  integrity sha512-yOFzPP2TrcndFzknT3Zm9te62kgdZNmKVhb+iWqmzbqogFQNNZyExKzo7rIQWZiGpsh26rqP1uKMQJlgo8qqqQ==
+"@rxdrag/appx-plugin-sdk@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmmirror.com/@rxdrag/appx-plugin-sdk/-/appx-plugin-sdk-0.0.4.tgz#aae99abfbe668ea174d4f01fc20b23a4386d451c"
+  integrity sha512-ZFGwZMdqGFsy90FwYCk6qjEr3U2gdxuydh4O/txB4dvSfyXt+mExubctaSuU7+DzKd2L0keIiHEaSWiVRrFI4A==
   dependencies:
     "@designable/core" "^1.0.0-beta.45"
     "@designable/react" "^1.0.0-beta.45"

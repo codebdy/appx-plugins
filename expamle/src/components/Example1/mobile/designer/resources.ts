@@ -1,4 +1,4 @@
-export const resource = {
+export const resources = [{
   icon: 'CardSource',
   elements: [
     {
@@ -11,4 +11,4 @@ export const resource = {
       },
     },
   ],
-}
+}]
